@@ -1,0 +1,6 @@
+<!ELEMENT inventario (zapatillas, camisetas)>
+<!ELEMENT zapatillas (ubicacion, usuario, marca)>
+<!ELEMENT camisetas (ubicacion, usuario, marca)>
+<!ELEMENT ubicacion (#PCDATA)>
+<!ELEMENT usuario (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>

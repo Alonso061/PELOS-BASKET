@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<inventario>
+    <zapatillas>
+        <ubicacion>Almacen 3</ubicacion>
+        <usuario>Alonso García Navarro</usuario>
+        <marca>adidas</marca>
+    </zapatillas>
+    <camisetas>
+        <ubicacion>Almacen 5</ubicacion>
+        <usuario>Alonso García Navarro</usuario>
+        <marca>nike</marca>
+    </camisetas>    
+</inventario>

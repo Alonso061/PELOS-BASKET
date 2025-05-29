@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogo.xsl"?>
+<catalogo>
+  <producto>
+    <nombre>Luka 1</nombre>
+    <precio>110</precio>
+  </producto>
+  <producto>
+    <nombre>Lebron XX</nombre>
+    <precio>190</precio>
+  </producto>
+  <producto>
+    <nombre>kobe 8</nombre>
+    <precio>250</precio>
+  </producto>
+  <producto>
+    <nombre>AE 1</nombre>
+    <precio>110</precio>
+  </producto>
+  <producto>
+    <nombre>KD 17</nombre>
+    <precio>180</precio>
+  </producto>
+  <producto>
+    <nombre>Harden vol 9</nombre>
+    <precio>170</precio>
+  </producto>
+</catalogo>

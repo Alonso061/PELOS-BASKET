@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web tienda de baloncesto online con las ultimas noticias.">
+  <title>Tienda baloncesto online</title>
+  <link rel="stylesheet" href="styles_AlonsoGarcia.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <h1>PELOS BASKET</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#lo ultimo en pelos basket">lo ultimo en pelos basket</a></li>
+          <li><a href="#ofertas">ofertas</a></li>
+          <li><a href="#multimedia">multimedia</a></li>
+          <li><a href="#contacto">contacto</a></li>
+          <li><a href="#preguntas frecuentes">preguntas frecuentes</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+
+    <section id="inicio">
+      <h2>Productos destacados</h2>
+      <p>Descubre los mejores productor relacionados con baloncesto al mejor precio posible.</p>
+      <figure>
+        <img src="zapatillas de portada.webp" alt="zapatillas de todas las marcas">
+        <figcaption>Zapatillas de todas las marcas</figcaption>
+      </figure>
+    </section>
+
+
+    <section id="lo ultimo en pelos basket">
+      <h2>NOVEDADES EN @PELOS BASKET</h2>
+      
+
+      <article>
+        <h3>Campus Pelos Basket ALTO RENDIMIENTO</h3>
+        <p>El Campus Pelos Basket llega en su primera edición como una experiencia única para jóvenes de 10 a 18 años apasionados por el baloncesto.</p>
+      </article>
+      <article>
+        <h3>A’JA THE REAL ONE</h3>
+        <p>A'ja Wilson ya ha hecho historia con dos anillos de la WNBA, dos medallas de oro olímpicas, un campeonato de la NCAA y tres premios MVP de la WNBA. Pero ahora, está llevando su juego al siguiente nivel con su propio calzado exclusivo: el Nike A’One.</p>
+      </article>
+      <article>
+        <h3>Pívots más dominantes en la NBA</h3>
+        <p>Los pívots más dominantes marcan una diferencia enorme en el rendimiento de sus equipos. En la NBA, el papel del pívot ha cambiado a lo largo de las décadas, desde pívots dominantes en la pintura a pívots versátiles capaces de sumar en todas las facetas del juego.</p>
+      </article>
+      <article>
+        <h3>Recap 2024 de Sports Emotion</h3>
+        <p>En Sports Emotion celebramos un 2024 lleno de hitos. Nuestra marca Basketball Emotion, en su primer año, alcanzó los 8 millones de euros en facturación y recibió el premio a mejor nueva marca de retail en los Mapic Awards. Este logro, junto con el crecimiento de Fútbol Emotion y nuestras demás unidades, reafirma nuestro compromiso con la omnicanalidad, la innovación y la excelencia en el deporte especializado.</p>
+      </article>
+
+
+      <table>
+        <caption>Comparativa de marcas para zapatillas</caption>
+        <thead>
+          <tr>
+            <th>marca</th>
+            <th>comodidad</th>
+            <th>Duración</th>
+            <th>precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Adidas</td>
+            <td>8,5/10</td>
+            <td>1 año aproximadamente</td>
+            <td>80-160€</td>
+          </tr>
+          <tr>
+            <td>Nike</td>
+            <td>8/10</td>
+            <td>1 año aproximadamente</td>
+            <td>70-280€</td>
+          </tr>
+          <tr>
+            <td>Jordan</td>
+            <td>7/10</td>
+            <td>1 año y medio aproximadamente</td>
+            <td>100-180€</td>
+          </tr>
+          <tr>
+            <td>Puma</td>
+            <td>9,25/10</td>
+            <td>1 año y medio aproximadamente</td>
+            <td>100-250€</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+    <section id="ofertas">
+      <h2>ofertas</h2>
+      <article>
+        <h3>Zapatillas Book 1 sun bleached</h3>
+        <p>149,99€ con un 49% de descuento lo que se quedaria en 75,99€</p>
+      </article>
+      <article>
+        <h3>sudadera luka doncic Dallas Mavericks</h3>
+        <p>74,99€ con un 40% de descuento lo que se quedaria en 44,99€</p>
+      </article>
+      <article>
+        <h3>Zapatillas Nike Giannis Freak 6 Christmas</h3>
+        <p>134,88€ con un 41% de descuento lo que se quedaria en 79,99€</p>
+      </article>
+      <article>
+        <h3>Camiseta Nike Chicago Bulls Dri-Fit Practice</h3>
+        <p>34,99€ con un descuento de 46% lo que quedasria en 18,99€</p>
+      </article>
+    </section>
+
+
+    <section id="multimedia">
+      <h2>Video de Presentación</h2>
+      <video controls>
+        <source src="videoplayback.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+      </video>
+    </section>
+
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="enviar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+
+    <section id="preguntas frecuentes">
+      <h2>Preguntas Frecuentes</h2>
+      <details>
+        <summary>¿Como puedo conseguir mas ofertas?</summary>
+        <p>Se pueden conseguir mas ofertas si te registras en nuestra pagina web y nos sigues en todas las redes sociales, al seguirnos en todas se te aplicara un descuento del 7% en todas las compras.</p>
+      </details>
+      <details>
+        <summary>¿Hay tienda fisica?</summary>
+        <p>Sí, tenemos una tienda fisica en Madrid. Avenida de Filipinas, 46.</p>
+      </details>
+      <details>
+        <summary>¿Se hacen envios a todas partes de España?</summary>
+        <p>Se hacen envios no solo a todos los lugares de españa si no tambien a todos los continentes.</p>
+      </details>
+    </section>
+  </main>
+
+
+  <aside>
+    <h2>Recursos Adicionales</h2>
+    <ul>
+      <li><a href="https://www.google.es/maps/place/Av.+de+Filipinas,+46,+Chamber%C3%AD,+28003+Madrid/@40.4412348,-3.7090834,17z/data=!3m1!4b1!4m6!3m5!1s0xd422859a3a8089f:0x64b58bedc6b894f9!8m2!3d40.4412307!4d-3.7065085!16s%2Fg%2F11rg65xsqr?hl=es&entry=ttu&g_ep=EgoyMDI1MDQwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Ubicacion en Google maps</a></li>
+      <li><a href="https://www.futbolemotion.com" target="_blank">Tienda de fútbol que podria interesarte</a></li>
+    </ul>
+  </aside>
+
+
+  <footer>
+    <p>&copy; 2025 Formación Profesional en Informática. Todos los derechos reservados.</p>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#lo ultimo en pelos basket">lo ultimo en pelos basket</a></li>
+        <li><a href="#ofertas">ofertas</a></li>
+        <li><a href="#multimedia">multimedia</a></li>
+        <li><a href="#contacto">contacto</a></li>
+        <li><a href="#preguntas frecuentes">preguntas frecuentes</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

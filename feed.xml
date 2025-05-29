@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Mis noticias</title>
+        <link>https://alonso061.github.io/PELOS-BASKET/index</link>
+        <description>Últimas noticias y actualizaciones de Mi Sitio</description>
+        <language>es-es</language>
+        <lastBuildDate>Tue, 13 May 2025 10:00:00 GMT</lastBuildDate>
+
+        <item>
+            <title>Campus Pelos Basket ALTO RENDIMIENTO</title>
+            <link>https://alonso061.github.io/PELOS-BASKET/index</link>
+            <description>El Campus Pelos Basket llega en su primera edición como una experiencia única para jóvenes de 10 a 18 años apasionados por el baloncesto.</description>
+            <pubDate>Tue, 29 May 2025 09:30:00 GMT</pubDate>
+            <guid>https://alonso061.github.io/PELOS-BASKET/index</guid>
+        </item>
+    </channel>
+</rss>
